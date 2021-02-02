@@ -4,8 +4,8 @@
 	<test name="TicketBook Test Cases">
 		<classes>					
 			<class name="com.directelectricals.webautomation.testcases.Login"></class>
-			<!-- <class name="com.directelectricals.webautomation.testcases.UserManagement"></class> 
-			<class name="com.directelectricals.webautomation.testcases.Customers"></class> -->
+			<class name="com.directelectricals.webautomation.testcases.UserManagement"></class> 
+			<class name="com.directelectricals.webautomation.testcases.Customers"></class> 
 			<class name="com.directelectricals.webautomation.testcases.VendorManagement"></class>
 		</classes>
 	</test>
