@@ -11,7 +11,7 @@ import com.directelectricals.webautomation.utilities.WaitUtilities;
 
 public class Customers {
 	
-	@Test(priority=1)
+	@Test(priority=4)
 	public static void verifyUserManagementUI(){
 		
 		CustomersPageObjects customerpage = PageFactory.initElements(EnvironmentSetup.webDriver, CustomersPageObjects.class);
@@ -20,7 +20,7 @@ public class Customers {
 		WaitUtilities.waitForPageToLoad();
 	}
 
-	@Test(priority=2)
+	@Test(priority=5)
 	public static void addCustomer(){
 		
 		CustomersPageObjects customerpage = PageFactory.initElements(EnvironmentSetup.webDriver, CustomersPageObjects.class);
