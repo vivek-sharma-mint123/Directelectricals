@@ -12,7 +12,7 @@ import com.directelectricals.webautomation.utilities.WaitUtilities;
 
 public class VendorManagement {
 	
-	@Test(priority=1)
+	@Test(priority=6)
 	public static void verifyUserManagementUI(){
 		
 		VendorManagementPageObject vendorpage = PageFactory.initElements(EnvironmentSetup.webDriver, VendorManagementPageObject.class);
@@ -21,7 +21,7 @@ public class VendorManagement {
 		WaitUtilities.waitForPageToLoad();
 	}
 
-	@Test(priority=2)
+	@Test(priority=7)
 	public static void addVendor(){
 		
 		VendorManagementPageObject vendorpage = PageFactory.initElements(EnvironmentSetup.webDriver, VendorManagementPageObject.class);
