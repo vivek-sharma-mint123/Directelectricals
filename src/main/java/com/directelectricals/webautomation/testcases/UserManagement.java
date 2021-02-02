@@ -11,7 +11,7 @@ import com.directelectricals.webautomation.utilities.WaitUtilities;
 
 public class UserManagement {
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public static void verifyUserManagementUI(){
 		
 		UserManagementPageObjects userpage = PageFactory.initElements(EnvironmentSetup.webDriver, UserManagementPageObjects.class);
@@ -20,7 +20,7 @@ public class UserManagement {
 		WaitUtilities.waitForPageToLoad();
 	}
 
-	@Test(priority=2)
+	@Test(priority=3)
 	public static void addUser(){
 		
 		UserManagementPageObjects userpage = PageFactory.initElements(EnvironmentSetup.webDriver, UserManagementPageObjects.class);
