@@ -30,7 +30,7 @@ public class Login {
 	 * Enter a value of Password 
 	 * Click on login button
 	 */
-	@Test
+	@Test(priority=1)
 	public static void loginUser(){
 		
 		LoginPageObjects loginpage = PageFactory.initElements(EnvironmentSetup.webDriver, LoginPageObjects.class);
