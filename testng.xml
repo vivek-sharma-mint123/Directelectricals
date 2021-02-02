@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TicketBook Appication Test Automation Test Suite">
+	<test name="TicketBook Test Cases">
+		<classes>					
+			<class name="com.directelectricals.webautomation.testcases.Login"></class>
+			<!-- <class name="com.directelectricals.webautomation.testcases.UserManagement"></class> 
+			<class name="com.directelectricals.webautomation.testcases.Customers"></class> -->
+			<class name="com.directelectricals.webautomation.testcases.VendorManagement"></class>
+		</classes>
+	</test>
+</suite> 
