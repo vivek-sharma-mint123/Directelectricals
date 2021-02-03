@@ -41,6 +41,7 @@ public class Login {
 		loginpage.txtPassword.sendKeys(Constants.PASSWORD_STAGING);
 		loginpage.btnSignIn.click();
 		WaitUtilities.waitForPageToLoad();		
+		System.out.println("Login Successfully");
 	}
 	
 }
