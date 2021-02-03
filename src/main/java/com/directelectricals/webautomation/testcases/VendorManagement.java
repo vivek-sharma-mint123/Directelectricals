@@ -46,6 +46,7 @@ public class VendorManagement {
 		customerpage.btnCancel.click();
 		JavascriptExecutor jse = (JavascriptExecutor)EnvironmentSetup.webDriver;
 		jse.executeScript("window.scrollBy(0, -250)");
+		System.out.println("Vendor Created Successfully");
 	}
 
 }
