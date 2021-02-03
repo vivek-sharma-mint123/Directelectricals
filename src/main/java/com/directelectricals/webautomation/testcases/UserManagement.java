@@ -43,6 +43,6 @@ public class UserManagement {
 		userpage.btnCancel.click();
 		JavascriptExecutor jse = (JavascriptExecutor)EnvironmentSetup.webDriver;
 		jse.executeScript("window.scrollBy(0, -250)");
-		
+		System.out.println("User created Successfully");
 	}
 }
